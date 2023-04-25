@@ -1,0 +1,33 @@
+.ingridient__list {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.ingridient__item {
+  max-width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingridient__price {
+  display: flex;
+}
+
+.ingridient__container {
+  height: 664px;
+  overflow-y: scroll;
+}
+
+.ingridient__container::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2F2F37;
+}
+
+.ingridient__container::-webkit-scrollbar-thumb {
+    background-color: #8585AD
+}

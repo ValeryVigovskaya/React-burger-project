@@ -1,0 +1,33 @@
+.ingridient__list {
+    height: 664px;
+    overflow-y: scroll;
+    list-style-type: none;
+    padding-left: 0;
+    height: 464px;
+  }
+  
+  .ingridient__list::-webkit-scrollbar {
+      width: 8px;
+      background-color: #2F2F37;
+  }
+  
+  .ingridient__list::-webkit-scrollbar-thumb {
+      background-color: #8585AD
+  }
+
+  .ingridient__item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ingridient__sum {
+    display: flex;
+  }
+
+  .ingridient__container {
+    max-width: 536px;
+    display: flex;
+    background: #1C1C21;
+    border-radius: 40px;
+  }
