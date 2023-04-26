@@ -13,8 +13,8 @@ function AppHeader() {
         <Logo />
       </div>
       <nav className='pb-4 pt-4'>
-        <ul className={`${headerStyles.header_list}`}>
-          <li className={`${headerStyles.header_item} pl-5`}>
+        <ul className={`${headerStyles.header_list} pb-4 pt-4`}>
+          <li className={`${headerStyles.header_item} pl-5 pr-5`}>
             <a href="#constructor" className={headerStyles.header_link}>
               <BurgerIcon type="primary" />
               <p className='text text_type_main-default  pl-2'>Конструктор</p></a>

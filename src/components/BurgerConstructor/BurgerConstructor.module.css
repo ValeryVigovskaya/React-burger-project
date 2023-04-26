@@ -1,3 +1,7 @@
+.ingridient{
+  margin: 0 auto;
+}
+
 .ingridient__list {
     height: 664px;
     overflow-y: scroll;
@@ -16,6 +20,7 @@
   }
 
   .ingridient__item {
+    max-width: 536px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -28,6 +33,19 @@
   .ingridient__container {
     max-width: 536px;
     display: flex;
-    background: #1C1C21;
-    border-radius: 40px;
+  }
+
+  .order {
+    max-width: 552px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    
+  }
+
+  .price {
+    max-width: 119px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }

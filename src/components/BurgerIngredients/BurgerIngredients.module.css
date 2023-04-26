@@ -4,7 +4,7 @@
   padding-left: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 32px 24px;
 }
 
 .ingridient__item {
@@ -18,9 +18,14 @@
   display: flex;
 }
 
+.text__align {
+  text-align: center;
+}
+
 .ingridient__container {
   height: 664px;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .ingridient__container::-webkit-scrollbar {
